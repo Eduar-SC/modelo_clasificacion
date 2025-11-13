@@ -1,0 +1,37 @@
+# Entornos virtuales
+venv/
+env/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Carpeta de datasets
+dataset/
+data/
+*.zip
+*.tar.gz
+
+# Modelos grandes o intermedios
+*.h5
+*.ckpt
+*.pb
+*.onnx
+
+# Resultados de entrenamiento
+models/training_results.png
+logs/
+checkpoints/
+
+# Archivos de configuración local
+*.env
+config.json
+
+# Notebooks temporales
+.ipynb_checkpoints/
